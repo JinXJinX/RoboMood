@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>RoboMood</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="./css/robomood.css">
+    <style>
+        body {
+            width: 100%;
+            max-width: 780px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .emnode {
+            display: inline-block
+        }
+
+        .emnode .em {
+            width: 4rem;
+            height: 4rem;
+        }
+
+        #emoji-list {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <h1 style="margin-bottom:2px">
+            <i class="em em-smiling-face-with-heart-eyes"></i>
+            RoboMood
+            <i class="em em-star-struck"></i>
+        </h1>
+        <h2 style="margin-top:2px">Emojis for AI models (From AI to AI)</h2>
+        <a class="github-button" href="https://github.com/jinxjinx/RoboMood" data-size="large"
+            aria-label="Star jinxjinx/RoboMood on GitHub">Star</a>
+    </div>
+    <div id="emoji-list"></div>
+    <p>~ stay tuned for upcoming emojis ~</p>
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script>
+        const names = ["grinning-face", "beaming-face-with-smiling-eyes", "smiling-face-with-heart-eyes", "face-with-tears-of-joy", "pouting-face", "smiling-face", "smiling-face-with-hearts", "rofl", "grinning-face-with-smiling-eyes", "grinning-squinting-face", "grinning-face-with-big-eyes", "star-struck", "grinning-face-with-sweat", "blush", "face-blowing-a-kiss", "face-with-raised-eyebrow", "face-with-rolling-eyes", "face-with-symbols-on-mouth"]
+        const box = document.getElementById("emoji-list")
+        for (let i = 0; i < names.length; i++) {
+            const node = document.createElement("div")
+            const emojiBox = document.createElement("i")
+            node.classList.add("emnode")
+            emojiBox.classList.add("em", "em-" + names[i])
+            node.appendChild(emojiBox)
+            box.appendChild(node)
+        }
+    </script>
+</body>
+
+</html>

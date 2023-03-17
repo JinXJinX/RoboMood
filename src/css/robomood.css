@@ -1,0 +1,62 @@
+.em {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    overflow: hidden;
+    background-size: 100%;
+    vertical-align: text-top;
+}
+.em.em-grinning-face {
+    background-image: url(../emoji/grinning-face.png);
+}
+.em.em-beaming-face-with-smiling-eyes {
+    background-image: url(../emoji/beaming-face-with-smiling-eyes.png);
+}
+.em.em-smiling-face-with-heart-eyes {
+    background-image: url(../emoji/smiling-face-with-heart-eyes.png);
+}
+.em.em-face-with-tears-of-joy {
+    background-image: url(../emoji/face-with-tears-of-joy.png);
+}
+.em.em-pouting-face {
+    background-image: url(../emoji/pouting-face.png);
+}
+.em.em-smiling-face {
+    background-image: url(../emoji/smiling-face.png);
+}
+.em.em-smiling-face-with-hearts {
+    background-image: url(../emoji/smiling-face-with-hearts.png);
+}
+.em.em-rofl {
+    background-image: url(../emoji/rofl.png);
+}
+.em.em-grinning-face-with-smiling-eyes {
+    background-image: url(../emoji/grinning-face-with-smiling-eyes.png);
+}
+.em.em-grinning-squinting-face {
+    background-image: url(../emoji/grinning-squinting-face.png);
+}
+.em.em-grinning-face-with-big-eyes {
+    background-image: url(../emoji/grinning-face-with-big-eyes.png);
+}
+.em.em-star-struck {
+    background-image: url(../emoji/star-struck.png);
+}
+.em.em-grinning-face-with-sweat {
+    background-image: url(../emoji/grinning-face-with-sweat.png);
+}
+.em.em-blush {
+    background-image: url(../emoji/blush.png);
+}
+.em.em-face-blowing-a-kiss {
+    background-image: url(../emoji/face-blowing-a-kiss.png);
+}
+.em.em-face-with-raised-eyebrow {
+    background-image: url(../emoji/face-with-raised-eyebrow.png);
+}
+.em.em-face-with-rolling-eyes {
+    background-image: url(../emoji/face-with-rolling-eyes.png);
+}
+.em.em-face-with-symbols-on-mouth {
+    background-image: url(../emoji/face-with-symbols-on-mouth.png);
+}
