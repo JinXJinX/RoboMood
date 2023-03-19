@@ -3,49 +3,44 @@
 
 <head>
     <title>RoboMood</title>
-    <link rel="icon" type="image/x-icon" href="./src/img/favicon.ico">
-    <link rel="stylesheet" href="./src/css/robomood.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            width: 100%;
-            max-width: 780px;
-            margin: 0 auto;
-            text-align: center;
-        }
-
-        .emnode {
-            display: inline-block
-        }
-
-        .emnode .em {
-            width: 4rem;
-            height: 4rem;
-        }
-
-        #emoji-list {
-            margin-top: 20px;
-        }
-    </style>
+    <link rel="icon" type="image/x-icon" href="./src/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/robomood.css">
+    <link rel="stylesheet" href="./src/css/index.css">
 </head>
 
 <body>
     <div id="header">
-        <h1 style="margin-bottom:2px">
-            <i class="em em-smiling-face-with-heart-eyes"></i>
+        <h1 class="mb-2">
+            <i class="em em-smiling_face_with_heart_eyes"></i>
             RoboMood
-            <i class="em em-star-struck"></i>
+            <i class="em em-star_struck"></i>
         </h1>
-        <h2 style="margin-top:2px">Emojis for AI models (From AI to AI)</h2>
-        <a class="github-button" href="https://github.com/jinxjinx/RoboMood" data-size="large"
-            aria-label="Star jinxjinx/RoboMood on GitHub">Star</a>
+        <h2 class="mt-2">1st Emoji Collection Designed for AI</h2>
+        <a class="btn mr-8" href="https://github.com/jinxjinx/RoboMood/releases/latest/download/emojis.zip"
+            aria-label="Download jinxjinx/RoboMood on GitHub">
+            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true"
+                class="octicon octicon-download mr-1">
+                <path
+                    d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z">
+                </path>
+                <path
+                    d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z">
+                </path>
+            </svg>
+            Download
+        </a>
+        <a class="btn" href="https://github.com/jinxjinx/RoboMood" aria-label="Star jinxjinx/RoboMood on GitHub">
+            <img src="./src/img/github-mark.png" width="16px" height="16px" />
+        </a>
     </div>
     <div id="emoji-list"></div>
     <p>~ stay tuned for upcoming emojis ~</p>
-
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
     <script>
-        const names = ["grinning-face", "beaming-face-with-smiling-eyes", "smiling-face-with-heart-eyes", "face-with-tears-of-joy", "pouting-face", "smiling-face", "smiling-face-with-hearts", "rofl", "grinning-face-with-smiling-eyes", "grinning-squinting-face", "grinning-face-with-big-eyes", "star-struck", "grinning-face-with-sweat", "blush", "face-blowing-a-kiss", "face-with-raised-eyebrow", "face-with-rolling-eyes", "face-with-symbols-on-mouth"]
+        const names = ["grinning_face", "beaming_face_with_smiling_eyes", "smiling_face_with_heart_eyes", "face_with_tears_of_joy", "pouting_face", "smiling_face", "smiling_face_with_hearts", "rofl", "grinning_face_with_smiling_eyes", "grinning_squinting_face", "grinning_face_with_big_eyes", "star_struck", "grinning_face_with_sweat", "blush", "face_blowing_a_kiss", "face_with_raised_eyebrow", "face_with_rolling_eyes", "face_with_symbols_on_mouth", "fearful_face", "hot_face", "loudly_crying_face", "expressionless_face", "neutral_face", "face_without_mouth", "face_with_open_mouth", "grimacing_face", "frowning_face", "frowning_face_with_open_mouth", "kissing_face", "cold_face", "slightly_smiling_face", "upside_down_face", "confounded_face", "squinting_face_with_tongue", "zany_face", "smiling_face_with_sunglasses", "money_mouth_face", "face_with_medical_mask", "doge", "sly"]
         const box = document.getElementById("emoji-list")
         for (let i = 0; i < names.length; i++) {
             const node = document.createElement("div")

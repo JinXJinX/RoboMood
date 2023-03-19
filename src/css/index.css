@@ -1,0 +1,60 @@
+/* @import url('../font/RobotoMono-Regular.ttf'); */
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('../font/RobotoMono-Regular.ttf') format('truetype');
+}
+
+body {
+    width: 100%;
+    max-width: 780px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.emnode {
+    display: inline-block
+}
+
+.emnode .em {
+    width: 4rem;
+    height: 4rem;
+}
+
+#emoji-list {
+    margin-top: 20px;
+}
+
+.btn {
+    height: 16px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #24292f;
+    background-color: #ebf0f4;
+    border: 1px solid rgba(27, 31, 36, .15);
+    border-radius: 0.25em;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #e9ebef;
+}
+
+.btn>img,
+.btn>svg {
+    vertical-align: bottom;
+}
+
+.mt-2 {
+    margin-top: 2px;
+}
+
+.mr-8 {
+    margin-right: 8px;
+}
+
+.mb-2 {
+    margin-bottom: 2px;
+}

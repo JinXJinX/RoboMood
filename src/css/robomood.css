@@ -6,57 +6,123 @@
     background-size: 100%;
     vertical-align: text-top;
 }
-.em.em-grinning-face {
-    background-image: url(../emoji/grinning-face.png);
+.em.em-grinning_face {
+    background-image: url(../emoji/grinning_face.png);
 }
-.em.em-beaming-face-with-smiling-eyes {
-    background-image: url(../emoji/beaming-face-with-smiling-eyes.png);
+.em.em-beaming_face_with_smiling_eyes {
+    background-image: url(../emoji/beaming_face_with_smiling_eyes.png);
 }
-.em.em-smiling-face-with-heart-eyes {
-    background-image: url(../emoji/smiling-face-with-heart-eyes.png);
+.em.em-smiling_face_with_heart_eyes {
+    background-image: url(../emoji/smiling_face_with_heart_eyes.png);
 }
-.em.em-face-with-tears-of-joy {
-    background-image: url(../emoji/face-with-tears-of-joy.png);
+.em.em-face_with_tears_of_joy {
+    background-image: url(../emoji/face_with_tears_of_joy.png);
 }
-.em.em-pouting-face {
-    background-image: url(../emoji/pouting-face.png);
+.em.em-pouting_face {
+    background-image: url(../emoji/pouting_face.png);
 }
-.em.em-smiling-face {
-    background-image: url(../emoji/smiling-face.png);
+.em.em-smiling_face {
+    background-image: url(../emoji/smiling_face.png);
 }
-.em.em-smiling-face-with-hearts {
-    background-image: url(../emoji/smiling-face-with-hearts.png);
+.em.em-smiling_face_with_hearts {
+    background-image: url(../emoji/smiling_face_with_hearts.png);
 }
 .em.em-rofl {
     background-image: url(../emoji/rofl.png);
 }
-.em.em-grinning-face-with-smiling-eyes {
-    background-image: url(../emoji/grinning-face-with-smiling-eyes.png);
+.em.em-grinning_face_with_smiling_eyes {
+    background-image: url(../emoji/grinning_face_with_smiling_eyes.png);
 }
-.em.em-grinning-squinting-face {
-    background-image: url(../emoji/grinning-squinting-face.png);
+.em.em-grinning_squinting_face {
+    background-image: url(../emoji/grinning_squinting_face.png);
 }
-.em.em-grinning-face-with-big-eyes {
-    background-image: url(../emoji/grinning-face-with-big-eyes.png);
+.em.em-grinning_face_with_big_eyes {
+    background-image: url(../emoji/grinning_face_with_big_eyes.png);
 }
-.em.em-star-struck {
-    background-image: url(../emoji/star-struck.png);
+.em.em-star_struck {
+    background-image: url(../emoji/star_struck.png);
 }
-.em.em-grinning-face-with-sweat {
-    background-image: url(../emoji/grinning-face-with-sweat.png);
+.em.em-grinning_face_with_sweat {
+    background-image: url(../emoji/grinning_face_with_sweat.png);
 }
 .em.em-blush {
     background-image: url(../emoji/blush.png);
 }
-.em.em-face-blowing-a-kiss {
-    background-image: url(../emoji/face-blowing-a-kiss.png);
+.em.em-face_blowing_a_kiss {
+    background-image: url(../emoji/face_blowing_a_kiss.png);
 }
-.em.em-face-with-raised-eyebrow {
-    background-image: url(../emoji/face-with-raised-eyebrow.png);
+.em.em-face_with_raised_eyebrow {
+    background-image: url(../emoji/face_with_raised_eyebrow.png);
 }
-.em.em-face-with-rolling-eyes {
-    background-image: url(../emoji/face-with-rolling-eyes.png);
+.em.em-face_with_rolling_eyes {
+    background-image: url(../emoji/face_with_rolling_eyes.png);
 }
-.em.em-face-with-symbols-on-mouth {
-    background-image: url(../emoji/face-with-symbols-on-mouth.png);
+.em.em-face_with_symbols_on_mouth {
+    background-image: url(../emoji/face_with_symbols_on_mouth.png);
+}
+.em.em-fearful_face {
+    background-image: url(../emoji/fearful_face.png);
+}
+.em.em-hot_face {
+    background-image: url(../emoji/hot_face.png);
+}
+.em.em-loudly_crying_face {
+    background-image: url(../emoji/loudly_crying_face.png);
+}
+.em.em-expressionless_face {
+    background-image: url(../emoji/expressionless_face.png);
+}
+.em.em-neutral_face {
+    background-image: url(../emoji/neutral_face.png);
+}
+.em.em-face_without_mouth {
+    background-image: url(../emoji/face_without_mouth.png);
+}
+.em.em-face_with_open_mouth {
+    background-image: url(../emoji/face_with_open_mouth.png);
+}
+.em.em-grimacing_face {
+    background-image: url(../emoji/grimacing_face.png);
+}
+.em.em-frowning_face {
+    background-image: url(../emoji/frowning_face.png);
+}
+.em.em-frowning_face_with_open_mouth {
+    background-image: url(../emoji/frowning_face_with_open_mouth.png);
+}
+.em.em-kissing_face {
+    background-image: url(../emoji/kissing_face.png);
+}
+.em.em-cold_face {
+    background-image: url(../emoji/cold_face.png);
+}
+.em.em-slightly_smiling_face {
+    background-image: url(../emoji/slightly_smiling_face.png);
+}
+.em.em-upside_down_face {
+    background-image: url(../emoji/upside_down_face.png);
+}
+.em.em-confounded_face {
+    background-image: url(../emoji/confounded_face.png);
+}
+.em.em-squinting_face_with_tongue {
+    background-image: url(../emoji/squinting_face_with_tongue.png);
+}
+.em.em-zany_face {
+    background-image: url(../emoji/zany_face.png);
+}
+.em.em-smiling_face_with_sunglasses {
+    background-image: url(../emoji/smiling_face_with_sunglasses.png);
+}
+.em.em-money_mouth_face {
+    background-image: url(../emoji/money_mouth_face.png);
+}
+.em.em-face_with_medical_mask {
+    background-image: url(../emoji/face_with_medical_mask.png);
+}
+.em.em-doge {
+    background-image: url(../emoji/doge.png);
+}
+.em.em-sly {
+    background-image: url(../emoji/sly.png);
 }
