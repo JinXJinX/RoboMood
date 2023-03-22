@@ -51,10 +51,29 @@ body {
     margin-top: 2px;
 }
 
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mr-4 {
+    margin-right: 4px;
+}
+
 .mr-8 {
     margin-right: 8px;
 }
 
 .mb-2 {
     margin-bottom: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.platform-logo {
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    vertical-align: middle;
 }
